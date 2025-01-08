@@ -1,1 +1,185 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900');
+body {
+	background-color: hsl(0, 0%, 8%);
+	font-size: 100%;
+}
+
+.main-shape {
+	background-color: hsl(0, 0%, 12%);
+	border-radius: 15px;
+	position: fixed;
+	inset: 0px;
+
+	min-width: 380px;
+	min-height: 610px;
+	max-width: 19vw;
+	max-height: 30.5vw;
+	margin: auto;
+}
+
+.social-button-github{
+	border-radius: 10px;
+	background-color: hsl(0, 0%, 20%);
+	color: hsl(0, 0%, 100%);
+	width: 77%;
+	height: 7.14%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Inter", serif;
+	font-weight:600;
+	font-size:16px;
+	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.social-button-mentor{
+	border-radius: 10px;
+	background-color: hsl(0, 0%, 20%);
+	color: hsl(0, 0%, 100%);
+	width: 77%;
+	height: 7.14%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Inter", serif;
+	font-weight:600;
+	font-size:16px;
+	
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.social-button-github:hover{
+	background-color: hsl(75, 94%, 57%);
+	color: black;
+}
+
+.social-button-github:focus{
+	background-color: hsl(75, 94%, 57%);
+	color: black;
+}
+
+.social-button-mentor:hover{
+	background-color: hsl(75, 94%, 57%);
+	color: black;
+}
+
+.social-button-linkedin{
+	border-radius: 10px;
+	background-color: hsl(0, 0%, 20%);
+	color: hsl(0, 0%, 100%);
+	width: 77%;
+	height: 7.14%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Inter", serif;
+	font-weight:600;
+	font-size:16px;
+	
+	top: 56%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.social-button-linkedin:hover{
+	background-color: hsl(75, 94%, 57%);
+	color: black;
+}
+
+.social-button-twitter{
+	border-radius: 10px;
+	background-color: hsl(0, 0%, 20%);
+	color: hsl(0, 0%, 100%);
+	width: 77%;
+	height: 7.14%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Inter", serif;
+	font-weight:600;
+	font-size:16px;
+	
+	top: 59%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.social-button-twitter:hover{
+	background-color: hsl(75, 94%, 57%);
+	color: black;
+}
+
+.social-button-instagram{
+	border-radius: 10px;
+	background-color: hsl(0, 0%, 20%);
+	color: hsl(0, 0%, 100%);
+	width: 77%;
+	height: 7.14%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Inter", serif;
+	font-weight:600;
+	font-size:16px;
+	
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.social-button-instagram:hover{
+	background-color: hsl(75, 94%, 57%);
+	color: black;
+}
+
+
+.personal-details {
+	position: absolute;
+	text-align: center;
+	line-height: 3px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	margin-top: 10%;
+	
+}
+
+.profile-picture{
+	border-radius: 50%;
+	width: 90px;
+	position: relative;
+}
+
+.name{
+	font-family: "Inter", serif;
+	font-weight:400;
+	font-size: 28px;
+	color: hsl(0, 0%, 100%);
+	padding-top: 20px;
+}
+
+.location{
+	font-family: "Inter", serif;
+	font-weight:600;
+	font-size: 14px;
+	color: hsl(75, 94%, 57%);
+}
+
+.tag {
+	font-family: "Inter", serif;
+	font-weight:300;
+	font-size: 13px;
+	color: hsl(0, 0%, 100%);
+	line-height: 50px;
+}
